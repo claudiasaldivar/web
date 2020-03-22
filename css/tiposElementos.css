@@ -1,0 +1,50 @@
+body {
+  background: #f2f2f2;
+  font-family: Arial;
+  /*color: #fff;*/
+}
+
+h1, p, div {
+  background: #ccc;
+  padding: 10px;
+  width: 500px;
+  display: inline-block;
+}
+a {
+  color: #fff;
+  background: #000;
+  /*A LOS ELEMENTOS A NO SE LES PUEDE DAR INSTRUCCIÓNES COMO PADDING, WIDTH, HEIGTH,----SE PUEDEN CNVERTIR PARA PODER
+  PONERSELAS*/
+  padding: 10px;
+  height: 50px;
+  /*DISPLAY AYUDA A CONTROLAR EL CONTENIDO*/
+  display: inline-block;
+}
+
+/* Eliminamos los margin y padding generales que agregan
+	los navegadores web por defecto */
+/** {
+	padding: 0;
+	margin: 0;
+}*/
+
+/*
+
+Existen 2 tipos de elementos, los que bloque (block) y los en linea (inline).
+Los block tienen por defecto un ancho del 100% y ademas no pueden tener (por defecto) otro elemento a un lado.
+
+Y los inline tienen el ancho que solo necesitan y (por defecto) los elementos automaticamente se ponen al lado del otro.
+
+*/
+
+/* Algunos elementos "inline"
+    a, span, img, b, i, small, cite, code,
+    em, strong, br, script, button,
+    input, label, select, textarea.
+*/
+
+/* Algunos elementos "block"
+	div, article, section, header
+	footer, aside, table, p, video,
+	ul, ol, h1, h2, h3, h4, h5, h6
+*/

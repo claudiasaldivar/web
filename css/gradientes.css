@@ -1,0 +1,10 @@
+.fondo{
+  width: 500px;
+  height: 300px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e5e696+0,d1d360+100;Wax+3D */
+   background: #e5e696; /* Old browsers */
+   background: -moz-linear-gradient(left,  #e5e696 0%, #d1d360 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(left,  #e5e696 0%,#d1d360 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to right,  #e5e696 0%,#d1d360 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e696', endColorstr='#d1d360',GradientType=1 ); /* IE6-9 */
+   }

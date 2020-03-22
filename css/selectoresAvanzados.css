@@ -1,0 +1,22 @@
+/*SELECTOR DE HIJOS*/
+div > p{
+  font-size: 28px;
+}
+
+/*SELECTOR DE ATRIBUTOS*/
+input[type]{}
+
+input[type="text"]{}
+
+/*HERENCIA, TODO LO QUE TIENE EL BODY, HASTA QUE ESPECIFIQUES UN VALOR EN ALGUN SELECTOR O ATRIBUTO DENTRO DE ESTE
+CAMBIARA LAS OPCIONES QUE GUSTES*/
+
+body{
+  font-size: 30px;
+  color: red;
+}
+
+article{
+  font-size: 21px;
+  color: black;
+}

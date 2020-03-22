@@ -1,0 +1,29 @@
+a {
+font-size: 28px;
+/*SIRVE PARA QUITAR EL LINEADO U OTRAS COSAS DEL TEXTO*/
+text-decoration: none;
+}
+
+/*CAMBIAR DE COLOR AL PONER EL CURSOR*/
+a:hover {
+  background: #f9a03f;
+  color: #fff;
+}
+
+/*QUE ESTILOS QUIERO QUE TENGAN LOS ENLACES QU ENO HAN SIDO VISITADOS*/
+a:link {
+  text-decoration: none;
+  /*color: orange;*/
+}
+
+/*ENLACES VISITADOS*/
+a:visited {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+/*CUANDO SE HACE CLICK*/
+a:active {
+  text-decoration: underline;
+  color: yellow;
+}

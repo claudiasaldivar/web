@@ -1,0 +1,32 @@
+/*SELECTOR UNIVERSAL
+*{color: red;}
+*/
+
+/*SELECTORES DE ETIQUETA
+  h1{
+  color: blue;
+}
+*/
+
+/*SELECTOR DESCENDENTE (unos adentro de otros---- <div><p></p></div>)
+div article p{
+  font-size: 20px;
+  color: black;
+}
+
+div p a{
+  color:red;
+}
+*/
+
+/*POR MEDIO DE LAS CLASES
+.grande{
+  font-size: 28px;
+}
+*/
+
+ /*POR MEDIO DE EL ID, DE PREFERENCIA SÓLO USAR CON JS
+ #grande{
+   color: yellow;
+ }
+*/

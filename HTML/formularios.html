@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es" >
+  <head>
+    <meta charset="utf-8">
+    <title>FORMULARIOS</title>
+  </head>
+  <body>
+
+    <!--ETIQUETA PARA FORMULARIOS
+    *REQUIRED SIRVE PARA HACER VER EL INPUT ROJO CUANDO
+    EL USUARIO NO TECLEE NADA Y SEA UN CAMPO REQUERIDO
+    *TYPE DEL TIPO SUBMIT ES PARA BOTONES.
+    *SIRVE PARA RECIBIR DATOS Y SE USA PARA IDENTIFICAR.
+    *READONLY ES SOLO PARA LECTURA U NO SE PUEDE ESCRIBIR NADA.
+    *DISABLE SIVE PARA DESABILITAR EL CAMPO.
+    -->
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" maxlength="10" placeholder="Nombre" required name="nombre" id="nombre">
+      <br/>
+      <input type="email" maxlength="30" name="email" placeholder="Email" required>
+      <br/>
+      <textarea name="mensaje" placeholder="Mensaje"></textarea>
+      <br/>
+
+      <!--EL FOR SIRVE PARA IDENTIFICAR LA OPCION DEL CAMPO REQUERIDO,
+        POR ESO PONEMOS EL NOMBRE DEL ID-->
+      <label for="pais">Pais:</label>
+      <!--EL SELECT ES COMO UN COMBOBOX-->
+      <select id="pais" name="pais">
+        <option value="mexico">México</option>
+        <option value="eua">EUA</option>
+        <option value="canada">Canada</option>
+      </select>
+      <br/>
+
+      <!--PUEDE SERVIR PARA INDICAR EL SEXO-->
+      <input type="radio" name="genero" value="Hombre" id="hombre"><label for="hombre">Hombre</label>
+      <input type="radio" name="genero" value="Mujer" id="mujer"><label for="mujer">Mujer</label>
+      <br/>
+
+      <!--INPUT DEL TIPO CHECKBOX SIRVE PARA SELECCIONAR UNO O MAS OPCIONES-->
+      <input type="checkbox" name="terminos" id="terminos"><label for="terminos">Terminos</label>
+      <br/>
+      <input type="submit" value="ENVIAR">
+    </form>
+  </body>
+
+</html>

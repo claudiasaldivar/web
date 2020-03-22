@@ -1,0 +1,33 @@
+body {
+  /*SI UNA FUENTE NO CARGA BUSCA LA QUE LE SIGUE Y ASI SUCESIVAMENTE POR ESO SE PONEN 3
+  CUANDO LA TIPOGRAFIA LLEVA ESPACIONS SE PONE ENTRE COMILLAS
+  */
+  font-family:Arial, sans-serif, helvetica;
+}
+/*TEXTO JUSTIFICADO*/
+p {
+  text-align: justify;
+
+  /*ESPACIADO EN CADA LETRA*/
+  letter-spacing: 3px;
+
+  /*ESPACIADO QUE TIENE CADA LINEA*/
+  line-height: 30px;
+}
+
+h1 {
+  font-family: "Times new roman", Arial, sans-serif, helvetica;
+  font-size: 30px;
+  font-style: italic;
+
+  /*PARA QUE LOS ENCABEZADO SNO ESTEN EN NEGRITAS*/
+  font-weight:normal;
+  color:#4285ed;
+
+  /*MODIFICAR LA ALINEACIÓN DEL TEXTO QUE POR DEFECTO LO TIENE EN LEFT*/
+  text-align:left;
+  text-decoration: underline;
+
+  /*TRANSFORMAR EL TEXTO*/
+  text-transform:uppercase;
+}

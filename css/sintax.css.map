@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAI;EACF,UAAU,EAAE,OAAO;;AAGrB,SAAS;EACP,UAAU,EAAE,IAAI;EAChB,iBAAO;IACL,KAAK,EAAE,IAAI;EAGX,aAAC;IACC,eAAe,EAAE,IAAI",
+"sources": ["../sass/sintax.sass"],
+"names": [],
+"file": "sintax.css"
+}

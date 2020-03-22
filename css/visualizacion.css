@@ -1,0 +1,57 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+div, a {
+  background: #ccc;
+}
+
+a {
+  /*display: block;
+  visibility: hidden;*/
+  background: #246eb9;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+}
+/*Display [ inline | block | none | inline-block | flex ]*/
+
+.caja {
+  color: #fff;
+  background: #4fb560;
+  margin: 20px 0;
+  width: 200px;
+  height: 200px;
+  /*TE DA UN SCROLL PARA QUE VISUALICES EL CONTENIDO DE LA CAJA AUNQUE ESTE REVASE EL TAMAÑO DE LA MISMA*/
+  overflow: auto;
+}
+
+.contenedor {
+  width: 600px;
+  background: #ccc;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.izquierda{float: left;}
+.derecha{float: right;}
+
+.contenedor2 .caja{
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.azul {
+  background: #009ddc;
+  z-index: 10;
+}
+
+.gris {
+  background: #32021f;
+  left: 50px;
+  bottom: 80px;
+  z-index: 9;
+}

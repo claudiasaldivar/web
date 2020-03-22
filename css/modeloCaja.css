@@ -1,0 +1,39 @@
+/*QUITAR LOS MARGENES INTERNOS Y EXTERNOS DE TODA LA PAGUINA*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /*color: #fff;*/
+  font-family: Arial;
+  line-height: 22px;
+
+}
+
+.caja {
+  background: #0353a4;
+  width: 200px;
+  /*height: 200px; CUANDO SE TRABAJA CON CAJAS NO SE PONE EL ALTO PARA QUE ESTE SE PONGA AUTOMATICO
+  DEPENDIENDO LA CANTIDAD DE TEXTO INGRESADO*/
+
+/*arriba y abajo   derecha e izquierda*/
+  margin: 20px;
+  padding: 20px 10px 5px 0px;
+  border: 20px solid #DF7401;
+  /*
+  margin-top:;
+  margin-right:;
+  margin-left;
+  pargin-bottom:;
+
+  padding-top:;
+  padding-right:;
+  padding-left;
+  padding-bottom:;
+  */
+}
+
+.caja p {
+  background: #eee5e9;
+}

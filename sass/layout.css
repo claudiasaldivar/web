@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #ff8000;
+  font-family: Arial; }
+
+.contenedor {
+  width: 700px;
+  margin: 20px; }
+
+header,
+.main,
+aside,
+footer {
+  padding: 20px; }
+
+header {
+  background: #0D2C44; }
+
+.main {
+  background: #fff;
+  width: 70px;
+  float: left; }
+
+aside {
+  background: #BB1F35;
+  color: #fff;
+  width: 20%;
+  float: left; }
+
+footer {
+  clear: both;
+  width: 100%;
+  background: #0D2C44;
+  color: #fff; }
+
+/*# sourceMappingURL=layout.css.map */
