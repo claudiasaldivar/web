@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FECHAS Y TIEMPO EN JS</title>
+  </head>
+  <body>
+    <p id="fecha"></p>
+  </body>
+  <script type="text/javascript">
+    var fecha = new Date();
+    document.write(fecha);
+
+    function mostrarTiempo() {
+      var fecha = new Date();
+      parrafo = document.getElementById('fecha');
+      parrafo.innerHTML = fecha;
+    }
+
+    var intervalo = setInterval(mostrarTiempo, 3000);
+
+    console.log(fecha.getHours()+':'+fecha.getMinutes()+':'+fecha.getSeconds());
+    //console.log(fecha.getMinutes());
+
+    //Dias
+    var semana = ['Domingo','Lunes', 'Martes',
+                  'Miercoles', 'Jueves', 'Viernes', 'Sabado'];
+
+    var meses = ['Enero', 'Febrero', 'Marzo',
+                  'Abril', 'Mayo', 'Junio', 'Julio',
+                  'Agosto', 'Septiembre', 'Octubre', 'Noviembre','Diciembre'];
+
+    //  console.log('Día: ' +semana[fecha.getDay()]);
+      console.log(semana[fecha.getDay()]+' '+fecha.getDay()+
+                  '/'+ meses[fecha.getMonth()]+'/'+fecha.getFullYear());
+  </script>
+</html>
