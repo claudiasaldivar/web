@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col">
+          <form class="">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" name="nombre" placeholder="Nombre" id="nombre">
+            </div>
+
+            <div class="form-group">
+              <label for="password">password</label>
+              <input type="password" class="form-control" name="password" placeholder="password" id="password">
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea name="mensaje" placeholder="mensaje" id="mensaje" class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="pais">Pais</label>
+              <select class="form-control" name="pais" id="pais">
+                <option value="mexico">Mexico</option>
+                <option value="espana">España</option>
+                <option value="canada">Canada</option>
+              </select>
+            </div>
+
+            <div class="form-check">
+              <label form-check-label>
+                <input type="radio" name="sexo" id="hombre" class="form-check-input mr-2">Hombre
+              </label>
+            </div>
+
+            <div class="form-check">
+              <label form-check-label>
+                <input type="radio" name="sexo" id="mujer" class="form-check-input mr-2">Mujer
+              </label>
+            </div>
+
+            <div class="form-check mb-3">
+              <label form-check-label>
+                <input type="checkbox" name="terminos" id="terminos" class="form-check-input mr-2">Acepto terminos y condiciones
+              </label>
+            </div>
+            <input type="submit" name="enviar" value="Enviar" class="btn btn-primary btn-block">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+
+</html>
